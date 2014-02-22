@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53E250B18B85C55004ED187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53E250A18B85C55004ED187 /* Foundation.framework */; };
+		C53E250D18B85C55004ED187 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53E250C18B85C55004ED187 /* CoreGraphics.framework */; };
+		C53E250F18B85C55004ED187 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53E250E18B85C55004ED187 /* UIKit.framework */; };
+		C53E251518B85C55004ED187 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C53E251318B85C55004ED187 /* InfoPlist.strings */; };
+		C53E251718B85C55004ED187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C53E251618B85C55004ED187 /* main.m */; };
+		C53E251B18B85C55004ED187 /* WSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C53E251A18B85C55004ED187 /* WSAppDelegate.m */; };
+		C53E251E18B85C55004ED187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53E251C18B85C55004ED187 /* Main.storyboard */; };
+		C53E252118B85C55004ED187 /* WSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53E252018B85C55004ED187 /* WSMasterViewController.m */; };
+		C53E252418B85C55004ED187 /* WSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53E252318B85C55004ED187 /* WSDetailViewController.m */; };
+		C53E252618B85C55004ED187 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53E252518B85C55004ED187 /* Images.xcassets */; };
+		C53E252D18B85C55004ED187 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53E252C18B85C55004ED187 /* XCTest.framework */; };
+		C53E252E18B85C55004ED187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53E250A18B85C55004ED187 /* Foundation.framework */; };
+		C53E252F18B85C55004ED187 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53E250E18B85C55004ED187 /* UIKit.framework */; };
+		C53E253718B85C55004ED187 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C53E253518B85C55004ED187 /* InfoPlist.strings */; };
+		C53E253918B85C55004ED187 /* MusicHackDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C53E253818B85C55004ED187 /* MusicHackDayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C53E253018B85C55004ED187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C53E24FF18B85C55004ED187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53E250618B85C55004ED187;
+			remoteInfo = MusicHackDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C53E250718B85C55004ED187 /* MusicHackDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicHackDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53E250A18B85C55004ED187 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C53E250C18B85C55004ED187 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C53E250E18B85C55004ED187 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C53E251218B85C55004ED187 /* MusicHackDay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicHackDay-Info.plist"; sourceTree = "<group>"; };
+		C53E251418B85C55004ED187 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C53E251618B85C55004ED187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C53E251818B85C55004ED187 /* MusicHackDay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicHackDay-Prefix.pch"; sourceTree = "<group>"; };
+		C53E251918B85C55004ED187 /* WSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSAppDelegate.h; sourceTree = "<group>"; };
+		C53E251A18B85C55004ED187 /* WSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegate.m; sourceTree = "<group>"; };
+		C53E251D18B85C55004ED187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C53E251F18B85C55004ED187 /* WSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSMasterViewController.h; sourceTree = "<group>"; };
+		C53E252018B85C55004ED187 /* WSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSMasterViewController.m; sourceTree = "<group>"; };
+		C53E252218B85C55004ED187 /* WSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSDetailViewController.h; sourceTree = "<group>"; };
+		C53E252318B85C55004ED187 /* WSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSDetailViewController.m; sourceTree = "<group>"; };
+		C53E252518B85C55004ED187 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C53E252B18B85C55004ED187 /* MusicHackDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicHackDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53E252C18B85C55004ED187 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C53E253418B85C55004ED187 /* MusicHackDayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicHackDayTests-Info.plist"; sourceTree = "<group>"; };
+		C53E253618B85C55004ED187 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C53E253818B85C55004ED187 /* MusicHackDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicHackDayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53E250418B85C55004ED187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53E250D18B85C55004ED187 /* CoreGraphics.framework in Frameworks */,
+				C53E250F18B85C55004ED187 /* UIKit.framework in Frameworks */,
+				C53E250B18B85C55004ED187 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53E252818B85C55004ED187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53E252D18B85C55004ED187 /* XCTest.framework in Frameworks */,
+				C53E252F18B85C55004ED187 /* UIKit.framework in Frameworks */,
+				C53E252E18B85C55004ED187 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53E24FE18B85C55004ED187 = {
+			isa = PBXGroup;
+			children = (
+				C53E251018B85C55004ED187 /* MusicHackDay */,
+				C53E253218B85C55004ED187 /* MusicHackDayTests */,
+				C53E250918B85C55004ED187 /* Frameworks */,
+				C53E250818B85C55004ED187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C53E250818B85C55004ED187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53E250718B85C55004ED187 /* MusicHackDay.app */,
+				C53E252B18B85C55004ED187 /* MusicHackDayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53E250918B85C55004ED187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C53E250A18B85C55004ED187 /* Foundation.framework */,
+				C53E250C18B85C55004ED187 /* CoreGraphics.framework */,
+				C53E250E18B85C55004ED187 /* UIKit.framework */,
+				C53E252C18B85C55004ED187 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C53E251018B85C55004ED187 /* MusicHackDay */ = {
+			isa = PBXGroup;
+			children = (
+				C53E251918B85C55004ED187 /* WSAppDelegate.h */,
+				C53E251A18B85C55004ED187 /* WSAppDelegate.m */,
+				C53E251C18B85C55004ED187 /* Main.storyboard */,
+				C53E251F18B85C55004ED187 /* WSMasterViewController.h */,
+				C53E252018B85C55004ED187 /* WSMasterViewController.m */,
+				C53E252218B85C55004ED187 /* WSDetailViewController.h */,
+				C53E252318B85C55004ED187 /* WSDetailViewController.m */,
+				C53E252518B85C55004ED187 /* Images.xcassets */,
+				C53E251118B85C55004ED187 /* Supporting Files */,
+			);
+			path = MusicHackDay;
+			sourceTree = "<group>";
+		};
+		C53E251118B85C55004ED187 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C53E251218B85C55004ED187 /* MusicHackDay-Info.plist */,
+				C53E251318B85C55004ED187 /* InfoPlist.strings */,
+				C53E251618B85C55004ED187 /* main.m */,
+				C53E251818B85C55004ED187 /* MusicHackDay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C53E253218B85C55004ED187 /* MusicHackDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				C53E253818B85C55004ED187 /* MusicHackDayTests.m */,
+				C53E253318B85C55004ED187 /* Supporting Files */,
+			);
+			path = MusicHackDayTests;
+			sourceTree = "<group>";
+		};
+		C53E253318B85C55004ED187 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C53E253418B85C55004ED187 /* MusicHackDayTests-Info.plist */,
+				C53E253518B85C55004ED187 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53E250618B85C55004ED187 /* MusicHackDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53E253C18B85C55004ED187 /* Build configuration list for PBXNativeTarget "MusicHackDay" */;
+			buildPhases = (
+				C53E250318B85C55004ED187 /* Sources */,
+				C53E250418B85C55004ED187 /* Frameworks */,
+				C53E250518B85C55004ED187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicHackDay;
+			productName = MusicHackDay;
+			productReference = C53E250718B85C55004ED187 /* MusicHackDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C53E252A18B85C55004ED187 /* MusicHackDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53E253F18B85C55004ED187 /* Build configuration list for PBXNativeTarget "MusicHackDayTests" */;
+			buildPhases = (
+				C53E252718B85C55004ED187 /* Sources */,
+				C53E252818B85C55004ED187 /* Frameworks */,
+				C53E252918B85C55004ED187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53E253118B85C55004ED187 /* PBXTargetDependency */,
+			);
+			name = MusicHackDayTests;
+			productName = MusicHackDayTests;
+			productReference = C53E252B18B85C55004ED187 /* MusicHackDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53E24FF18B85C55004ED187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Wondershake;
+				TargetAttributes = {
+					C53E252A18B85C55004ED187 = {
+						TestTargetID = C53E250618B85C55004ED187;
+					};
+				};
+			};
+			buildConfigurationList = C53E250218B85C55004ED187 /* Build configuration list for PBXProject "MusicHackDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C53E24FE18B85C55004ED187;
+			productRefGroup = C53E250818B85C55004ED187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53E250618B85C55004ED187 /* MusicHackDay */,
+				C53E252A18B85C55004ED187 /* MusicHackDayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53E250518B85C55004ED187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53E252618B85C55004ED187 /* Images.xcassets in Resources */,
+				C53E251518B85C55004ED187 /* InfoPlist.strings in Resources */,
+				C53E251E18B85C55004ED187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53E252918B85C55004ED187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53E253718B85C55004ED187 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53E250318B85C55004ED187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53E252118B85C55004ED187 /* WSMasterViewController.m in Sources */,
+				C53E251B18B85C55004ED187 /* WSAppDelegate.m in Sources */,
+				C53E251718B85C55004ED187 /* main.m in Sources */,
+				C53E252418B85C55004ED187 /* WSDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53E252718B85C55004ED187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53E253918B85C55004ED187 /* MusicHackDayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C53E253118B85C55004ED187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53E250618B85C55004ED187 /* MusicHackDay */;
+			targetProxy = C53E253018B85C55004ED187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C53E251318B85C55004ED187 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53E251418B85C55004ED187 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C53E251C18B85C55004ED187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53E251D18B85C55004ED187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C53E253518B85C55004ED187 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53E253618B85C55004ED187 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C53E253A18B85C55004ED187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C53E253B18B85C55004ED187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53E253D18B85C55004ED187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicHackDay/MusicHackDay-Prefix.pch";
+				INFOPLIST_FILE = "MusicHackDay/MusicHackDay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C53E253E18B85C55004ED187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicHackDay/MusicHackDay-Prefix.pch";
+				INFOPLIST_FILE = "MusicHackDay/MusicHackDay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C53E254018B85C55004ED187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicHackDay.app/MusicHackDay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicHackDay/MusicHackDay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MusicHackDayTests/MusicHackDayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C53E254118B85C55004ED187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicHackDay.app/MusicHackDay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicHackDay/MusicHackDay-Prefix.pch";
+				INFOPLIST_FILE = "MusicHackDayTests/MusicHackDayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53E250218B85C55004ED187 /* Build configuration list for PBXProject "MusicHackDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53E253A18B85C55004ED187 /* Debug */,
+				C53E253B18B85C55004ED187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53E253C18B85C55004ED187 /* Build configuration list for PBXNativeTarget "MusicHackDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53E253D18B85C55004ED187 /* Debug */,
+				C53E253E18B85C55004ED187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C53E253F18B85C55004ED187 /* Build configuration list for PBXNativeTarget "MusicHackDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53E254018B85C55004ED187 /* Debug */,
+				C53E254118B85C55004ED187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C53E24FF18B85C55004ED187 /* Project object */;
+}
