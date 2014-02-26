@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface WSAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UIView *loadingView;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+-(void)showLoadingView;
+-(void)hideLoadingView;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  WSMasterViewController.h
+//  FadeAnimationController.h
 //  MusicHackDay
 //
 //  Created by tatsuya fujii on 2014/02/22.
@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WSMasterViewController : UITableViewController
-
+@interface FadeAnimationController : NSObject <UIViewControllerAnimatedTransitioning>
 @end

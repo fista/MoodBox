@@ -13,6 +13,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"UUID"] == nil) {
+        [[NSUserDefaults standardUserDefaults] setObject:[self getUUID] forKey:@"UUID"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     return YES;
 }
 							
@@ -43,4 +50,49 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (NSString*) getUUID { //UUID
+    CFUUIDRef uuidObj = CFUUIDCreate(nil);
+    NSString *uuidString = (NSString*)CFBridgingRelease(CFUUIDCreateString(nil, uuidObj));
+    CFRelease(uuidObj);
+    return uuidString;
+}
+
+-(void)showLoadingView
+{
+    loadingView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.window.rootViewController.view.frame.size.width, self.window.rootViewController.view.frame.size.height)];
+    loadingView.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.8];
+    
+    UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] init];
+    indicator.center = self.window.rootViewController.view.center;
+    [loadingView addSubview:indicator];
+    [indicator startAnimating];
+    
+    [self.window addSubview:loadingView];
+}
+
+-(void)hideLoadingView
+{
+    [loadingView removeFromSuperview];
+}
+
+@end
+
+//NSNull Crash対策
+@implementation NSNull(IgnoreMessages)
+
+- (void)forwardInvocation:(NSInvocation *)anInvocation {
+    if ([self respondsToSelector:[anInvocation selector]]) {
+        [anInvocation invokeWithTarget:self];
+    }
+}
+
+- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
+    NSMethodSignature *sig=[[NSNull class] instanceMethodSignatureForSelector:aSelector];
+    // Just return some meaningless signature
+    if (sig == nil) {
+        sig = [NSMethodSignature signatureWithObjCTypes:"@^v^c"];
+    }
+    
+    return sig;
+}
 @end
